@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "product-1",
+      "description": "A modern smart refrigerator with a large display.",
+      "imageUrl": "https://images.unsplash.com/photo-1582484898866-ac15ca496f0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydCUyMHJlZnJpZ2VyYXRvcnxlbnwwfHx8fDE3NjE1ODY0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart refrigerator"
+    },
+    {
+      "id": "product-2",
+      "description": "A sleek 4K television with vibrant colors.",
+      "imageUrl": "https://images.unsplash.com/photo-1611718663049-4c39b6b1182e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHw0ayUyMHRlbGV2aXNpb258ZW58MHx8fHwxNzYxNTg2NDU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "4k television"
+    },
+    {
+      "id": "product-3",
+      "description": "The latest flagship smartphone with a pro camera system.",
+      "imageUrl": "https://images.unsplash.com/photo-1573059496149-975214bda13e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWFydHBob25lJTIwY2FtZXJhfGVufDB8fHx8MTc2MTQ5NjY3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smartphone camera"
+    },
+    {
+      "id": "product-4",
+      "description": "A high-performance laptop for creative professionals.",
+      "imageUrl": "https://images.unsplash.com/photo-1664651337318-16019bfc06cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3dlcmZ1bCUyMGxhcHRvcHxlbnwwfHx8fDE3NjE1NTY0MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "powerful laptop"
+    },
+    {
+      "id": "product-5",
+      "description": "A front-loading washing machine with smart features.",
+      "imageUrl": "https://images.unsplash.com/photo-1662220984920-3bd1f88e846f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3YXNoaW5nJTIwbWFjaGluZXxlbnwwfHx8fDE3NjE1ODY0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "washing machine"
+    },
+    {
+      "id": "product-6",
+      "description": "A powerful and quiet dishwasher.",
+      "imageUrl": "https://images.unsplash.com/photo-1670905901357-0cb2e51bfe38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2Rlcm4lMjBkaXNod2FzaGVyfGVufDB8fHx8MTc2MTU4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern dishwasher"
+    },
+    {
+      "id": "product-7",
+      "description": "A new generation gaming console.",
+      "imageUrl": "https://images.unsplash.com/photo-1593118247619-e2d6f056869e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnYW1pbmclMjBjb25zb2xlfGVufDB8fHx8MTc2MTU2NTc0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gaming console"
+    },
+    {
+      "id": "product-8",
+      "description": "A slim and lightweight tablet for on-the-go productivity.",
+      "imageUrl": "https://images.unsplash.com/photo-1628866971123-6697eb767771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0YWJsZXQlMjBjb21wdXRlcnxlbnwwfHx8fDE3NjE1NzQxNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tablet computer"
+    },
+    {
+      "id": "product-9",
+      "description": "A mid-range smartphone with a long-lasting battery.",
+      "imageUrl": "https://images.unsplash.com/photo-1609162554108-6490759499ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZWxscGhvbmUlMjBzY3JlZW58ZW58MHx8fHwxNzYxNTg2NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cellphone screen"
+    },
+    {
+      "id": "product-10",
+      "description": "A stainless steel microwave oven.",
+      "imageUrl": "https://images.unsplash.com/photo-1462392435449-542c64fd805d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWNyb3dhdmUlMjBvdmVufGVufDB8fHx8MTc2MTU1ODM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "microwave oven"
+    }
+  ]
 }
