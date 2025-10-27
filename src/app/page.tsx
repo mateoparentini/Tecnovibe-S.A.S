@@ -7,6 +7,15 @@ import { Header } from "@/components/header";
 import { Filters } from "@/components/filters";
 import { ProductGrid } from "@/components/product-grid";
 import { CartProvider } from "@/context/cart-context";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
+import { Filter } from "lucide-react";
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
@@ -40,6 +49,16 @@ export default function Home() {
     });
   }, [searchTerm, priceRange, selectedTypes]);
 
+  const filtersComponent = (
+    <Filters
+      priceRange={priceRange}
+      setPriceRange={setPriceRange}
+      selectedTypes={selectedTypes}
+      setSelectedTypes={setSelectedTypes}
+      maxPrice={maxPrice}
+    />
+  );
+
   return (
     <CartProvider>
       <div className="flex min-h-screen w-full flex-col bg-background">
@@ -48,13 +67,7 @@ export default function Home() {
           <div className="grid md:grid-cols-[250px_1fr] lg:grid-cols-[300px_1fr] gap-8">
             <aside className="hidden md:block">
               {isClient ? (
-                <Filters
-                  priceRange={priceRange}
-                  setPriceRange={setPriceRange}
-                  selectedTypes={selectedTypes}
-                  setSelectedTypes={setSelectedTypes}
-                  maxPrice={maxPrice}
-                />
+                filtersComponent
               ) : (
                 <div className="sticky top-20 space-y-6">
                   <div className="h-48 w-full animate-pulse rounded-lg bg-muted" />
@@ -63,6 +76,22 @@ export default function Home() {
               )}
             </aside>
             <div className="flex-1">
+              <div className="mb-4 md:hidden">
+                <Sheet>
+                  <SheetTrigger asChild>
+                    <Button variant="outline" className="w-full">
+                      <Filter className="mr-2 h-4 w-4" />
+                      Filtros
+                    </Button>
+                  </SheetTrigger>
+                  <SheetContent side="left" className="w-[300px] sm:w-[360px]">
+                    <SheetHeader>
+                      <SheetTitle>Filtros</SheetTitle>
+                    </SheetHeader>
+                    <div className="py-4">{filtersComponent}</div>
+                  </SheetContent>
+                </Sheet>
+              </div>
               <ProductGrid products={filteredProducts} />
             </div>
           </div>
