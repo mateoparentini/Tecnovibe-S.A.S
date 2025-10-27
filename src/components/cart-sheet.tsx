@@ -5,9 +5,10 @@ import { useCart } from "@/context/cart-context";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
+import { Trash2 } from "lucide-react";
 
 export function CartSheet() {
-  const { cartItems, itemCount } = useCart();
+  const { cartItems, itemCount, removeFromCart } = useCart();
 
   const subtotal = cartItems.reduce((acc, item) => acc + item.price, 0);
 
@@ -18,8 +19,8 @@ export function CartSheet() {
           <ScrollArea className="flex-1">
             <div className="py-4 pr-6">
               <div className="space-y-4">
-                {cartItems.map((item) => (
-                  <div key={item.id} className="flex items-center gap-4">
+                {cartItems.map((item, index) => (
+                  <div key={`${item.id}-${index}`} className="flex items-center gap-4">
                     <div className="relative h-16 w-16 overflow-hidden rounded-md border">
                       <Image
                         src={item.imageUrl}
@@ -35,6 +36,14 @@ export function CartSheet() {
                         ${item.price.toFixed(2)}
                       </p>
                     </div>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => removeFromCart(item.id, index)}
+                      aria-label={`Remove ${item.name} from cart`}
+                    >
+                      <Trash2 className="h-4 w-4 text-muted-foreground" />
+                    </Button>
                   </div>
                 ))}
               </div>
