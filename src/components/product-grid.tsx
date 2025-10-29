@@ -10,10 +10,10 @@ export function ProductGrid({ products }: ProductGridProps) {
     return (
       <div className="flex h-[50vh] flex-col items-center justify-center rounded-lg border-2 border-dashed border-muted-foreground/20 bg-muted/20">
         <h2 className="text-2xl font-semibold text-muted-foreground">
-          No Products Found
+          No se encontraron productos
         </h2>
         <p className="mt-2 text-muted-foreground">
-          Try adjusting your search or filter criteria.
+          Intenta ajustar tu búsqueda o criterios de filtro.
         </p>
       </div>
     );

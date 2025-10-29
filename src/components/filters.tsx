@@ -12,10 +12,32 @@ import {
 import type { Product } from "@/lib/products";
 import { Separator } from "./ui/separator";
 
-const productTypes: Exclude<Product["type"], undefined>[] = [
-  "appliance",
-  "electronics",
-  "cellphone",
+const filterGroups = [
+  {
+    title: "Equipos Tecnológicos",
+    types: [
+      "cargador-portatil",
+      "teclado",
+      "mouse-inalambrico",
+      "celular",
+      "tablet",
+      "pc",
+      "notebook",
+      "otros-tecnologicos",
+    ],
+  },
+  {
+    title: "Aparatos Electrodomésticos",
+    types: ["air-frier", "sandwichera"],
+  },
+  {
+    title: "Electrodomésticos de Cocina",
+    types: [
+      "horno-electrico",
+      "procesador-de-alimentos",
+      "grandes-electrodomesticos",
+    ],
+  },
 ];
 
 type FiltersProps = {
@@ -33,22 +55,27 @@ export function Filters({
   setSelectedTypes,
   maxPrice,
 }: FiltersProps) {
-  const handleTypeChange = (type: Product["type"]) => {
-    if (!type) return;
-    const newSelectedTypes = selectedTypes.includes(type)
-      ? selectedTypes.filter((t) => t !== type)
-      : [...selectedTypes, type];
-    setSelectedTypes(newSelectedTypes);
+  const handleGroupChange = (groupTypes: Product["type"][]) => {
+    const anySelected = groupTypes.some((type) => selectedTypes.includes(type));
+    let newSelectedTypes;
+    if (anySelected) {
+      newSelectedTypes = selectedTypes.filter(
+        (type) => !groupTypes.includes(type)
+      );
+    } else {
+      newSelectedTypes = [...selectedTypes, ...groupTypes];
+    }
+    setSelectedTypes([...new Set(newSelectedTypes)]);
   };
 
   return (
     <Card className="sticky top-20 shadow-none border">
       <CardHeader>
-        <CardTitle>Filters</CardTitle>
+        <CardTitle>Filtros</CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">
         <div className="space-y-4">
-          <h3 className="font-semibold text-md">Price Range</h3>
+          <h3 className="font-semibold text-md">Rango de Precios</h3>
           <Slider
             min={0}
             max={maxPrice}
@@ -63,17 +90,21 @@ export function Filters({
         </div>
         <Separator />
         <div className="space-y-4">
-          <h3 className="font-semibold text-md">Category</h3>
+          <h3 className="font-semibold text-md">Categoría</h3>
           <div className="space-y-3">
-            {productTypes.map((type) => (
-              <div key={type} className="flex items-center space-x-2">
+            {filterGroups.map((group) => (
+              <div key={group.title} className="flex items-center space-x-2">
                 <Checkbox
-                  id={type}
-                  checked={selectedTypes.includes(type)}
-                  onCheckedChange={() => handleTypeChange(type)}
+                  id={group.title}
+                  checked={group.types.some((type) =>
+                    selectedTypes.includes(type as Product["type"])
+                  )}
+                  onCheckedChange={() =>
+                    handleGroupChange(group.types as Product["type"][])
+                  }
                 />
-                <Label htmlFor={type} className="capitalize font-normal">
-                  {type === "cellphone" ? "Cellphones" : type}
+                <Label htmlFor={group.title} className="font-normal">
+                  {group.title}
                 </Label>
               </div>
             ))}

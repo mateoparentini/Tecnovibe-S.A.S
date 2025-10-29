@@ -3,19 +3,19 @@
     {
       "id": "product-1",
       "description": "A modern smart refrigerator with a large display.",
-      "imageUrl": "https://images.unsplash.com/photo-1582484898866-ac15ca496f0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydCUyMHJlZnJpZ2VyYXRvcnxlbnwwfHx8fDE3NjE1ODY0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/refrigerador-inteligente.jpg",
       "imageHint": "smart refrigerator"
     },
     {
       "id": "product-2",
       "description": "A sleek 4K television with vibrant colors.",
-      "imageUrl": "https://images.unsplash.com/photo-1611718663049-4c39b6b1182e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHw0ayUyMHRlbGV2aXNpb258ZW58MHx8fHwxNzYxNTg2NDU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/televisor-4k.jpg",
       "imageHint": "4k television"
     },
     {
       "id": "product-3",
       "description": "The latest flagship smartphone with a pro camera system.",
-      "imageUrl": "https://images.unsplash.com/photo-1573059496149-975214bda13e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWFydHBob25lJTIwY2FtZXJhfGVufDB8fHx8MTc2MTQ5NjY3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/smartphone-galaxy.jpg",
       "imageHint": "smartphone camera"
     },
     {
@@ -56,6 +56,12 @@
     },
     {
       "id": "product-10",
+      "description": "A stainless steel microwave oven.",
+      "imageUrl": "https://images.unsplash.com/photo-1462392435449-542c64fd805d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWNyb3dhdmUlMjBvdmVufGVufDB8fHx8MTc2MTU1ODM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "microwave oven"
+    },
+    {
+      "id": "product-11",
       "description": "A stainless steel microwave oven.",
       "imageUrl": "https://images.unsplash.com/photo-1462392435449-542c64fd805d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWNyb3dhdmUlMjBvdmVufGVufDB8fHx8MTc2MTU1ODM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "microwave oven"

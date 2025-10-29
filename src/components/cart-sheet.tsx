@@ -40,7 +40,7 @@ export function CartSheet() {
                       variant="ghost"
                       size="icon"
                       onClick={() => removeFromCart(item.id, index)}
-                      aria-label={`Remove ${item.name} from cart`}
+                      aria-label={`Eliminar ${item.name} del carrito`}
                     >
                       <Trash2 className="h-4 w-4 text-muted-foreground" />
                     </Button>
@@ -56,8 +56,8 @@ export function CartSheet() {
                 <span>${subtotal.toFixed(2)}</span>
               </div>
               <div className="flex justify-between">
-                <span>Shipping</span>
-                <span>Free</span>
+                <span>Envío</span>
+                <span>Gratis</span>
               </div>
               <Separator />
               <div className="flex justify-between font-semibold">
@@ -65,12 +65,12 @@ export function CartSheet() {
                 <span>${subtotal.toFixed(2)}</span>
               </div>
             </div>
-            <Button className="w-full mt-4">Proceed to Checkout</Button>
+            <Button className="w-full mt-4">Proceder al pago</Button>
           </div>
         </>
       ) : (
         <div className="flex flex-1 items-center justify-center">
-          <p className="text-muted-foreground">Your cart is empty.</p>
+          <p className="text-muted-foreground">Tu carrito está vacío.</p>
         </div>
       )}
     </div>

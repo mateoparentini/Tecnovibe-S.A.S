@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Search, ShoppingCart, Store } from "lucide-react";
+import { Search, ShoppingCart } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/context/cart-context";
@@ -30,16 +30,13 @@ export function Header({ searchTerm, setSearchTerm }: HeaderProps) {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center">
+      <div className="container flex h-28 items-center">
         <Link
           href="/"
           className="flex items-center space-x-2"
-          aria-label="eBoutique Lite Home"
+          aria-label="Technovibe Home"
         >
-          <Store className="h-6 w-6 text-primary" />
-          <span className="hidden font-bold sm:inline-block">
-            eBoutique Lite
-          </span>
+          <img src="/logo.png" alt="Technovibe" className="h-28" />
         </Link>
 
         <div className="flex-1 flex justify-center px-4">
@@ -51,7 +48,7 @@ export function Header({ searchTerm, setSearchTerm }: HeaderProps) {
               <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
               <Input
                 type="search"
-                placeholder="Search products..."
+                placeholder="Buscar productos..."
                 className="pl-8 w-full"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -66,7 +63,7 @@ export function Header({ searchTerm, setSearchTerm }: HeaderProps) {
               variant="ghost"
               size="icon"
               className="relative"
-              aria-label={`Shopping cart with ${itemCount} items`}
+              aria-label={`Carrito de compras con ${itemCount} artículos`}
             >
               <ShoppingCart className="h-5 w-5" />
               {itemCount > 0 && (
@@ -78,7 +75,7 @@ export function Header({ searchTerm, setSearchTerm }: HeaderProps) {
           </SheetTrigger>
           <SheetContent className="w-[400px] sm:w-[540px]">
             <SheetHeader>
-              <SheetTitle>Your Cart</SheetTitle>
+              <SheetTitle>Tu Carrito</SheetTitle>
             </SheetHeader>
             <CartSheet />
           </SheetContent>

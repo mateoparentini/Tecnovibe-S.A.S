@@ -24,8 +24,8 @@ export function ProductCard({ product }: ProductCardProps) {
   const handleAddToCart = () => {
     addToCart(product);
     toast({
-      title: "Added to cart",
-      description: `${product.name} has been added to your cart.`,
+      title: "Agregado al carrito",
+      description: `${product.name} ha sido agregado a tu carrito.`,
     });
   };
 
@@ -46,14 +46,14 @@ export function ProductCard({ product }: ProductCardProps) {
           {product.name}
         </CardTitle>
         <p className="text-sm text-muted-foreground capitalize">
-          {product.type === "cellphone" ? "Cellphone" : product.type}
+          {product.type === "celular" ? "Celular" : product.type}
         </p>
       </CardContent>
-      <CardFooter className="p-4 pt-0 flex justify-between items-center">
-        <p className="text-2xl font-bold text-primary">${product.price}</p>
-        <Button onClick={handleAddToCart}>
+      <CardFooter className="p-4 pt-0 flex flex-col items-start">
+        <p className="text-2xl font-bold text-primary mb-2">${product.price}</p>
+        <Button onClick={handleAddToCart} className="w-full">
           <ShoppingCart className="mr-2 h-4 w-4" />
-          Add to Cart
+          Agregar al carrito
         </Button>
       </CardFooter>
     </Card>
