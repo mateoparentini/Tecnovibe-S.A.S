@@ -3,7 +3,7 @@
     {
       "id": "product-1",
       "description": "A modern smart refrigerator with a large display.",
-      "imageUrl": "/refrigeradorsamsung.jpg",
+      "imageUrl": "/RefrigeradorSamsung.jpg",
       "imageHint": "smart refrigerator"
     },
     {
@@ -15,7 +15,7 @@
     {
       "id": "product-3",
       "description": "The latest flagship smartphone with a pro camera system.",
-      "imageUrl": "/smartphone-galaxy.jpg",
+      "imageUrl": "/samsung.jpg",
       "imageHint": "smartphone camera"
     },
     {
@@ -45,13 +45,13 @@
     {
       "id": "product-8",
       "description": "A slim and lightweight tablet for on-the-go productivity.",
-      "imageUrl": "/tableta-air.jpg",
+      "imageUrl": "/tablet.jpg",
       "imageHint": "tablet computer"
     },
     {
       "id": "product-9",
       "description": "A mid-range smartphone with a long-lasting battery.",
-      "imageUrl": "/smartphone-pixel.jpg",
+      "imageUrl": "/iphone.jpg",
       "imageHint": "cellphone screen"
     },
     {
@@ -63,19 +63,19 @@
     {
       "id": "product-11",
       "description": "A fast portable charger.",
-      "imageUrl": "/cargador-portatil.jpg",
+      "imageUrl": "/cargador.jpg",
       "imageHint": "portable charger"
     },
     {
       "id": "product-12",
       "description": "An RGB mechanical keyboard.",
-      "imageUrl": "/teclado-mecanico.jpg",
+      "imageUrl": "/teclado.jpg",
       "imageHint": "mechanical keyboard"
     },
     {
       "id": "product-13",
       "description": "An ergonomic wireless mouse.",
-      "imageUrl": "/mouse-inalambrico.jpg",
+      "imageUrl": "/mouse.jpg",
       "imageHint": "wireless mouse"
     },
     {

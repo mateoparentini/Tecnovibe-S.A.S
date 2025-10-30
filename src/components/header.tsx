@@ -41,7 +41,7 @@ export function Header({ searchTerm, setSearchTerm }: HeaderProps) {
 
         <div className="flex-1 flex justify-center px-4">
           <form
-            className="w-full max-w-md"
+            className="w-full max-w-lg"
             onSubmit={handleSearchSubmit}
           >
             <div className="relative">
@@ -62,7 +62,7 @@ export function Header({ searchTerm, setSearchTerm }: HeaderProps) {
             <Button
               variant="ghost"
               size="icon"
-              className="relative"
+              className="relative mr-4"
               aria-label={`Carrito de compras con ${itemCount} artículos`}
             >
               <ShoppingCart className="h-5 w-5" />
