@@ -39,7 +39,7 @@ export function Header({ searchTerm, setSearchTerm }: HeaderProps) {
           <img src="/logo.png" alt="Technovibe" className="h-28" />
         </Link>
 
-        <div className="flex-1 flex justify-center px-4">
+        <div className="flex-1 flex justify-center px-5">
           <form
             className="w-full max-w-lg"
             onSubmit={handleSearchSubmit}
@@ -62,7 +62,7 @@ export function Header({ searchTerm, setSearchTerm }: HeaderProps) {
             <Button
               variant="ghost"
               size="icon"
-              className="relative mr-4"
+              className="relative"
               aria-label={`Carrito de compras con ${itemCount} artículos`}
             >
               <ShoppingCart className="h-5 w-5" />
