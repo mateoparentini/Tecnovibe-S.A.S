@@ -3,7 +3,7 @@
     {
       "id": "product-1",
       "description": "A modern smart refrigerator with a large display.",
-      "imageUrl": "/refrigerador-inteligente.jpg",
+      "imageUrl": "/refrigeradorsamsung.jpg",
       "imageHint": "smart refrigerator"
     },
     {
@@ -21,50 +21,86 @@
     {
       "id": "product-4",
       "description": "A high-performance laptop for creative professionals.",
-      "imageUrl": "https://images.unsplash.com/photo-1664651337318-16019bfc06cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3dlcmZ1bCUyMGxhcHRvcHxlbnwwfHx8fDE3NjE1NTY0MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/laptop-creadores.jpg",
       "imageHint": "powerful laptop"
     },
     {
       "id": "product-5",
       "description": "A front-loading washing machine with smart features.",
-      "imageUrl": "https://images.unsplash.com/photo-1662220984920-3bd1f88e846f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3YXNoaW5nJTIwbWFjaGluZXxlbnwwfHx8fDE3NjE1ODY0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/lavadora-eco.jpg",
       "imageHint": "washing machine"
     },
     {
       "id": "product-6",
       "description": "A powerful and quiet dishwasher.",
-      "imageUrl": "https://images.unsplash.com/photo-1670905901357-0cb2e51bfe38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2Rlcm4lMjBkaXNod2FzaGVyfGVufDB8fHx8MTc2MTU4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/lavavajillas-silent.jpg",
       "imageHint": "modern dishwasher"
     },
     {
       "id": "product-7",
       "description": "A new generation gaming console.",
-      "imageUrl": "https://images.unsplash.com/photo-1593118247619-e2d6f056869e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnYW1pbmclMjBjb25zb2xlfGVufDB8fHx8MTc2MTU2NTc0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/consola-videojuegos.jpg",
       "imageHint": "gaming console"
     },
     {
       "id": "product-8",
       "description": "A slim and lightweight tablet for on-the-go productivity.",
-      "imageUrl": "https://images.unsplash.com/photo-1628866971123-6697eb767771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0YWJsZXQlMjBjb21wdXRlcnxlbnwwfHx8fDE3NjE1NzQxNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/tableta-air.jpg",
       "imageHint": "tablet computer"
     },
     {
       "id": "product-9",
       "description": "A mid-range smartphone with a long-lasting battery.",
-      "imageUrl": "https://images.unsplash.com/photo-1609162554108-6490759499ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZWxscGhvbmUlMjBzY3JlZW58ZW58MHx8fHwxNzYxNTg2NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/smartphone-pixel.jpg",
       "imageHint": "cellphone screen"
     },
     {
       "id": "product-10",
       "description": "A stainless steel microwave oven.",
-      "imageUrl": "https://images.unsplash.com/photo-1462392435449-542c64fd805d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWNyb3dhdmUlMjBvdmVufGVufDB8fHx8MTc2MTU1ODM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/horno-electrico.jpg",
       "imageHint": "microwave oven"
     },
     {
       "id": "product-11",
-      "description": "A stainless steel microwave oven.",
-      "imageUrl": "https://images.unsplash.com/photo-1462392435449-542c64fd805d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWNyb3dhdmUlMjBvdmVufGVufDB8fHx8MTc2MTU1ODM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "microwave oven"
+      "description": "A fast portable charger.",
+      "imageUrl": "/cargador-portatil.jpg",
+      "imageHint": "portable charger"
+    },
+    {
+      "id": "product-12",
+      "description": "An RGB mechanical keyboard.",
+      "imageUrl": "/teclado-mecanico.jpg",
+      "imageHint": "mechanical keyboard"
+    },
+    {
+      "id": "product-13",
+      "description": "An ergonomic wireless mouse.",
+      "imageUrl": "/mouse-inalambrico.jpg",
+      "imageHint": "wireless mouse"
+    },
+    {
+      "id": "product-14",
+      "description": "An extreme gaming PC.",
+      "imageUrl": "/pc-gamer.jpg",
+      "imageHint": "gaming pc"
+    },
+    {
+      "id": "product-15",
+      "description": "A digital air fryer.",
+      "imageUrl": "/air-fryer.jpg",
+      "imageHint": "air fryer"
+    },
+    {
+      "id": "product-16",
+      "description": "A 3-in-1 sandwich maker.",
+      "imageUrl": "/sandwichera-3-en-1.jpg",
+      "imageHint": "sandwich maker"
+    },
+    {
+      "id": "product-17",
+      "description": "A multifunction food processor.",
+      "imageUrl": "/procesador-alimentos.jpg",
+      "imageHint": "food processor"
     }
   ]
 }
