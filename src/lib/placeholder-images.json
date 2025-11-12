@@ -1,12 +1,6 @@
 {
   "placeholderImages": [
     {
-      "id": "product-1",
-      "description": "A modern smart refrigerator with a large display.",
-      "imageUrl": "/RefrigeradorSamsung.jpg",
-      "imageHint": "smart refrigerator"
-    },
-    {
       "id": "product-2",
       "description": "A sleek 4K television with vibrant colors.",
       "imageUrl": "/tele.jpg",
@@ -23,18 +17,6 @@
       "description": "A high-performance laptop for creative professionals.",
       "imageUrl": "/laptop.jpg",
       "imageHint": "powerful laptop"
-    },
-    {
-      "id": "product-5",
-      "description": "A front-loading washing machine with smart features.",
-      "imageUrl": "/lavadora.jpg",
-      "imageHint": "washing machine"
-    },
-    {
-      "id": "product-6",
-      "description": "A powerful and quiet dishwasher.",
-      "imageUrl": "/lava.png",
-      "imageHint": "modern dishwasher"
     },
     {
       "id": "product-7",
@@ -100,6 +82,24 @@
       "id": "product-17",
       "description": "A multifunction food processor.",
       "imageUrl": "/procesador-alimentos.jpg",
+      "imageHint": "food processor"
+    },
+    {
+      "id": "product-18",
+      "description": "Microondas.",
+      "imageUrl": "/micro.jpg",
+      "imageHint": "food processor"
+    },
+    {
+      "id": "product-19",
+      "description": "A multifunction food processor.",
+      "imageUrl": "/cafetera.jpg",
+      "imageHint": "food processor"
+    },
+    {
+      "id": "product-20",
+      "description": "Hervidor.",
+      "imageUrl": "/hervidor.jpg",
       "imageHint": "food processor"
     }
   ]

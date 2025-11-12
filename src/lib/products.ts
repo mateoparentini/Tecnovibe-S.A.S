@@ -19,7 +19,10 @@ export type Product = {
     | "horno-electrico"
     | "procesador-de-alimentos"
     | "otros-tecnologicos"
-    | "grandes-electrodomesticos";
+    | "grandes-electrodomesticos"
+    | "microondas-compacto"
+    | "cafetera"
+    | "hervidor-electrico";
   imageUrl: string;
   imageHint: string;
 };
@@ -124,27 +127,29 @@ export const products: Product[] = [
     type: "procesador-de-alimentos",
     ...getImageData("product-17"),
   },
+  {
+    id: "18",
+    name: "Microondas Compacto",
+    price: 125,
+    type: "microondas-compacto",
+    ...getImageData("product-18"),
+  },
+  {
+    id: "19",
+    name: "Cafetera",
+    price: 50,
+    type: "cafetera",
+    ...getImageData("product-19"),
+  },
+  {
+    id: "20",
+    name: "Hervidor Eléctrico",
+    price: 30,
+    type: "hervidor-electrico",
+    ...getImageData("product-20"),
+  }
   // Otros no especificados
 
-  {
-    id: "1",
-    name: "Refrigerador Inteligente",
-    price: 1299,
-    type: "grandes-electrodomesticos",
-    ...getImageData("product-1"),
-  },
-  {
-    id: "5",
-    name: "Lavadora",
-    price: 749,
-    type: "grandes-electrodomesticos",
-    ...getImageData("product-5"),
-  },
-  {
-    id: "6",
-    name: "Lavavajillas",
-    price: 599,
-    type: "grandes-electrodomesticos",
-    ...getImageData("product-6"),
-  },
+
+ 
 ];
