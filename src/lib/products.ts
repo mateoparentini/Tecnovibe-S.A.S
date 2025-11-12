@@ -82,14 +82,14 @@ export const products: Product[] = [
   },
   {
     id: "14",
-    name: "PC Gamer Extrema",
+    name: "PC Gamer Completa",
     price: 2800,
     type: "pc",
     ...getImageData("product-14"),
   },
   {
     id: "4",
-    name: "Laptop para Creadores de 16 pulgadas",
+    name: "Laptop de 16 pulgadas",
     price: 2499,
     type: "notebook",
     ...getImageData("product-4"),
@@ -125,20 +125,7 @@ export const products: Product[] = [
     ...getImageData("product-17"),
   },
   // Otros no especificados
-  {
-    id: "2",
-    name: "Televisor Quantum 4K",
-    price: 899,
-    type: "otros-tecnologicos",
-    ...getImageData("product-2"),
-  },
-  {
-    id: "7",
-    name: "Consola de Videojuegos de Nueva Generación",
-    price: 499,
-    type: "otros-tecnologicos",
-    ...getImageData("product-7"),
-  },
+
   {
     id: "1",
     name: "Refrigerador Inteligente",
@@ -148,14 +135,14 @@ export const products: Product[] = [
   },
   {
     id: "5",
-    name: "Lavadora Eco-Inteligente",
+    name: "Lavadora",
     price: 749,
     type: "grandes-electrodomesticos",
     ...getImageData("product-5"),
   },
   {
     id: "6",
-    name: "Lavavajillas SilentClean",
+    name: "Lavavajillas",
     price: 599,
     type: "grandes-electrodomesticos",
     ...getImageData("product-6"),

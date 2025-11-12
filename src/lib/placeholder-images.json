@@ -9,7 +9,7 @@
     {
       "id": "product-2",
       "description": "A sleek 4K television with vibrant colors.",
-      "imageUrl": "/televisor-4k.jpg",
+      "imageUrl": "/tele.jpg",
       "imageHint": "4k television"
     },
     {
@@ -21,19 +21,19 @@
     {
       "id": "product-4",
       "description": "A high-performance laptop for creative professionals.",
-      "imageUrl": "/laptop-creadores.jpg",
+      "imageUrl": "/laptop.jpg",
       "imageHint": "powerful laptop"
     },
     {
       "id": "product-5",
       "description": "A front-loading washing machine with smart features.",
-      "imageUrl": "/lavadora-eco.jpg",
+      "imageUrl": "/lavadora.jpg",
       "imageHint": "washing machine"
     },
     {
       "id": "product-6",
       "description": "A powerful and quiet dishwasher.",
-      "imageUrl": "/lavavajillas-silent.jpg",
+      "imageUrl": "/lava.png",
       "imageHint": "modern dishwasher"
     },
     {
@@ -81,7 +81,7 @@
     {
       "id": "product-14",
       "description": "An extreme gaming PC.",
-      "imageUrl": "/pc-gamer.jpg",
+      "imageUrl": "/pc-gamer.png",
       "imageHint": "gaming pc"
     },
     {
