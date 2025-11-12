@@ -38,6 +38,7 @@ const filterGroups = [
       "horno-electrico",
       "procesador-de-alimentos",
       "grandes-electrodomesticos",
+      "microondas-compacto",
     ],
   },
 ];
