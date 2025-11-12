@@ -24,6 +24,8 @@ const filterGroups = [
       "pc",
       "notebook",
       "otros-tecnologicos",
+      "auriculares-inalambricos",
+      "soporte-celular",
     ],
   },
   {
@@ -36,6 +38,7 @@ const filterGroups = [
       "horno-electrico",
       "procesador-de-alimentos",
       "grandes-electrodomesticos",
+      "licuadora",
     ],
   },
 ];

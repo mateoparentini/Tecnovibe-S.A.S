@@ -101,6 +101,24 @@
       "description": "Hervidor.",
       "imageUrl": "/hervidor.jpg",
       "imageHint": "food processor"
+    },
+    {
+      "id": "product-21",
+      "description": "Wireless noise-cancelling headphones.",
+      "imageUrl": "/auriculares.jpg",
+      "imageHint": "wireless headphones"
+    },
+    {
+      "id": "product-22",
+      "description": "A desk phone holder.",
+      "imageUrl": "/soporte-celular.jpg",
+      "imageHint": "phone holder"
+    },
+    {
+      "id": "product-23",
+      "description": "A high-power blender.",
+      "imageUrl": "/licuadora.jpg",
+      "imageHint": "blender"
     }
   ]
 }

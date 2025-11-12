@@ -22,7 +22,10 @@ export type Product = {
     | "grandes-electrodomesticos"
     | "microondas-compacto"
     | "cafetera"
-    | "hervidor-electrico";
+    | "hervidor-electrico"
+    | "auriculares-inalambricos"
+    | "soporte-celular"
+    | "licuadora";
   imageUrl: string;
   imageHint: string;
 };
@@ -60,6 +63,20 @@ export const products: Product[] = [
     price: 20,
     type: "mouse-inalambrico",
     ...getImageData("product-13"),
+  },
+  {
+    id: "21",
+    name: "Auriculares Inalámbricos con Cancelación de Ruido",
+    price: 90,
+    type: "auriculares-inalambricos",
+    ...getImageData("product-21"),
+  },
+  {
+    id: "22",
+    name: "Soporte para Celular de Escritorio",
+    price: 12,
+    type: "soporte-celular",
+    ...getImageData("product-22"),
   },
   // Equipos tecnológicos - Costosos
   {
@@ -147,7 +164,14 @@ export const products: Product[] = [
     price: 30,
     type: "hervidor-electrico",
     ...getImageData("product-20"),
-  }
+  },
+  {
+    id: "23",
+    name: "Licuadora de Alta Potencia",
+    price: 85,
+    type: "licuadora",
+    ...getImageData("product-23"),
+  },
   // Otros no especificados
 
 
