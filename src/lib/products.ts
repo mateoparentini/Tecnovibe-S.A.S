@@ -66,15 +66,15 @@ export const products: Product[] = [
   },
   {
     id: "21",
-    name: "Auriculares Inalámbricos con Cancelación de Ruido",
-    price: 90,
+    name: "Auriculares Inalámbricos ",
+    price: 60,
     type: "auriculares-inalambricos",
     ...getImageData("product-21"),
   },
   {
     id: "22",
-    name: "Soporte para Celular de Escritorio",
-    price: 12,
+    name: "Soporte para Celular",
+    price: 10,
     type: "soporte-celular",
     ...getImageData("product-22"),
   },
@@ -129,6 +129,27 @@ export const products: Product[] = [
     type: "sandwichera",
     ...getImageData("product-16"),
   },
+  {
+    id: "19",
+    name: "Cafetera",
+    price: 50,
+    type: "cafetera",
+    ...getImageData("product-19"),
+  },
+  {
+    id: "20",
+    name: "Hervidor Eléctrico",
+    price: 30,
+    type: "hervidor-electrico",
+    ...getImageData("product-20"),
+  },
+  {
+    id: "23",
+    name: "Licuadora",
+    price: 55,
+    type: "licuadora",
+    ...getImageData("product-23"),
+  },
   // Electrodomésticos de cocina mediano
   {
     id: "10",
@@ -151,27 +172,7 @@ export const products: Product[] = [
     type: "microondas-compacto",
     ...getImageData("product-18"),
   },
-  {
-    id: "19",
-    name: "Cafetera",
-    price: 50,
-    type: "cafetera",
-    ...getImageData("product-19"),
-  },
-  {
-    id: "20",
-    name: "Hervidor Eléctrico",
-    price: 30,
-    type: "hervidor-electrico",
-    ...getImageData("product-20"),
-  },
-  {
-    id: "23",
-    name: "Licuadora de Alta Potencia",
-    price: 85,
-    type: "licuadora",
-    ...getImageData("product-23"),
-  },
+ 
   // Otros no especificados
 
 

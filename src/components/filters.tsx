@@ -30,7 +30,7 @@ const filterGroups = [
   },
   {
     title: "Aparatos Electrodomésticos",
-    types: ["air-frier", "sandwichera"],
+    types: ["air-frier", "sandwichera", "licuadora", "cafetera", "hervidor-electrico"],
   },
   {
     title: "Electrodomésticos de Cocina",
@@ -38,7 +38,6 @@ const filterGroups = [
       "horno-electrico",
       "procesador-de-alimentos",
       "grandes-electrodomesticos",
-      "licuadora",
     ],
   },
 ];
